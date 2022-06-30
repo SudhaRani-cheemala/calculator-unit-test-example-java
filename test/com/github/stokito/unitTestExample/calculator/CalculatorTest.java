@@ -34,4 +34,10 @@ public class CalculatorTest {
 		Calculator calculator = new Calculator();
 		calculator.divide(6, 0);
 	}
+	public void testPower() {
+		Calculator calculator = new Calculator();
+		Assert.assertEquals(4.0, calculator.power(2, 2));
+	}
+
+	
 }
